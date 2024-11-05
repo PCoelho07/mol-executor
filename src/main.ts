@@ -35,7 +35,6 @@ const runInjectedCode = (codeToBeInjected: string) => {
 
 const main = () => {
     const code = process.argv[2];
-    console.log(code);
     runInjectedCode(code);
 }  
 
