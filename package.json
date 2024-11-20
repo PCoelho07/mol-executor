@@ -1,10 +1,15 @@
 {
   "scripts": {
     "start": "node ./dist/main.js",
+    "start-ts": "ts-node src/main.ts",
     "build": "rm -rf ./dist && tsc"
   },
   "devDependencies": {
     "@types/node": "^22.8.6",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2"
   }
 }
